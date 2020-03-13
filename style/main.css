@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+
+.main__red {
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    opacity: 0;
+    position: fixed;
+
+
+}
+
+.main__blue {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    opacity: 0;
+    position: fixed;
+
+
+}
+
+.background {
+    background-color: black;
+    transition: background-color .5s ease;
+    height: 2000px;
+    width: 2300px;
+}
